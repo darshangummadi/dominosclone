@@ -27,7 +27,7 @@ The frontend application (web or mobile) will not call each microservice directl
 
 These services handle the core business logic of user management and order orchestration.
 
-### 1. User Service (Java / Spring Boot)
+### 1. User Service (C# / .NET)
 
 This service is the source of truth for all user-related information.
 
@@ -57,7 +57,7 @@ Address { addressId, userId, street, city, state, zipCode }
 
 ```
 
-### 2. Order Service (Java / Spring Boot)
+### 2. Menu service (Java / Spring Boot)
 
 This service acts as the central orchestrator for placing and managing an order.
 
